@@ -1,0 +1,9 @@
+UrBackup server has been installed!
+
+You have to follow this steps to configure UrBackup for the first time
+1) Stop the jail
+2) Map the folder /mnt/backups/urbackup
+3) Start the jail
+4) Browse to http://jail-ip:55414 and configure an admin user.
+
+Official homepage is https://www.urbackup.org/index.html

@@ -1,7 +1,7 @@
 #!/bin/sh
-wget https://hndl.urbackup.org/Server/2.5.30/urbackup-server-2.5.30.tar.gz
-tar xf urbackup-server-2.5.30.tar.gz
-cd urbackup-server-2.5.30
+wget https://hndl.urbackup.org/Server/2.5.31/urbackup-server-2.5.31.tar.gz
+tar xf urbackup-server-2.5.31.tar.gz
+cd urbackup-server-2.5.31
 ./configure --enable-embedded-cryptopp --enable-embedded-zstd
 make
 make install

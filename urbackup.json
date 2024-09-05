@@ -3,14 +3,13 @@
     "release": "13.3-RELEASE",
     "artifact": "https://github.com/rjgould/iocage-plugin-urbackup",
     "pkgs": [
-        "urbackup",
+        "urbackup-server",
         "nano",
         "wget",
         "curl"
     ],
     "properties": {
-        "nat": 1,
-        "nat_forwards": "tcp(55414:55414)"
+        "dhcp": 1
     },
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {

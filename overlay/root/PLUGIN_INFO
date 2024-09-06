@@ -2,7 +2,10 @@ UrBackup server has been installed!
 
 You have to follow this steps to configure UrBackup for the first time
 1) Stop the jail
-2) Map the folder /mnt/backups/urbackup
+2) Map the folders:
+2a) /mnt/backups/urbackup   (inside the jail) to the dataset outside the jail where you want to store your backups
+2b) /var/urbackup           (inside the jail) to the dataset outside the jail where you want to store the UrBackup database files
+2c) /usr/local/etc/urbackup (inside the jail) to the dataset outside the jail where you want to store the UrBackup configuration files
 3) Start the jail
 4) Browse to http://jail-ip:55414 and configure an admin user.
 

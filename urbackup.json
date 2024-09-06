@@ -4,7 +4,7 @@
     "artifact": "https://github.com/rjgould/iocage-plugin-urbackup",
     "pkgs": [
         "urbackup-server",
-        "nano",
+        "nano"
     ],
     "properties": {
         "dhcp": 1
